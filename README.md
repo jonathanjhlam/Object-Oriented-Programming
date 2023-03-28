@@ -87,3 +87,4 @@ print(obj)
 	- Make sure to use parentheses when calling the class name.
 
 **Creating a Method for a Class:**
+- Classes can have **methods**. In Python 3, we just declare them like a new function (it doesn’t always need to return).
