@@ -71,7 +71,7 @@ If attributes are populated, then we have an instance; therefore an object.
 - A built-in keyword in Python 3 that allows to create our own classes.
 - Example:
 
-# The Most Basic Class
+**The Most Basic Class**
 
 class ClassName: # Notice that Class names are capitalized
 	pass # An Empty Block
