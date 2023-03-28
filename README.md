@@ -17,4 +17,5 @@ In Computer Science (CS):
         
 In Object Oriented Programming (OOP):          
 - An object in OOP is an instance of a class where this object can be either a variable, a function, a data structure or a combination of such       
+
 d
