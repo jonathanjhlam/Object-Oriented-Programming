@@ -1,3 +1,5 @@
 # Object-Oriented-Programming
-Notes for unit: Object Oriented Programming.  
-hello
+Unit Notes: Object Oriented Programming.   
+
+Lesson 1:      
+- hello
