@@ -44,6 +44,16 @@ NOTE: OOP focuses on how to manipulate the data of the object rather than the lo
 - **States:** The characteristic, measurable data of an object
 - **Behavior:** The available functionality of the object (what can it do?)
 - Object’s Data → attributes
-- Object’s Code → methods
+- Object’s Code → methods          
+
+**Dog Example:**          
+
+**Attributes:**           
+- Name, Color, Breed, isHungry, isThirsty
+
+Methods:          
+- bark(); eat(); sleep()
+
+
 
 
