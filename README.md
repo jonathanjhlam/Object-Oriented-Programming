@@ -81,3 +81,7 @@ obj = ClassName()
 print(obj)
 
 **Create a Class:**
+1. Define the name of the class with the keyword: **class**
+2. In its code block (indentation) define its attributes
+3. Then you can assign a variable with an instantiation of the class to interact with it
+	- Make sure to use parentheses when calling the class name.
