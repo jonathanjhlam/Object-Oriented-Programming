@@ -51,9 +51,16 @@ NOTE: OOP focuses on how to manipulate the data of the object rather than the lo
 **Attributes:**           
 - Name, Color, Breed, isHungry, isThirsty
 
-Methods:          
-- bark(); eat(); sleep()
+**Methods:**          
+- bark(); eat(); sleep()             
 
+If attributes are populated, then we have an instance; therefore an object.          
 
-
-
+**Classes & Objects:**          
+- **Class:** An abstract description of all objects that can be made from this set class where an object can be instantiated from
+- A class contains **attributes**
+- **Attributes:** An Object’s accessible **tools**
+- Fields: Variables that belong to an object or a class
+  - Type 1: It belongs to the instance of the class
+  - Type 2: It belongs to the class itself
+- Methods: Functions that the object or the object can call
