@@ -63,4 +63,19 @@ If attributes are populated, then we have an instance; therefore an object.
 1. Fields: Variables that belong to an object or a class
   - Type 1: It belongs to the instance of the class
   - Type 2: It belongs to the class itself
-2. Methods: Functions that the object or the object can call
+2. Methods: Functions that the object or the object can call               
+
+**OOP in Python 3:**         
+
+**Keyword: Class**       
+- A built-in keyword in Python 3 that allows to create our own classes.
+- Example:
+
+# The Most Basic Class
+
+class ClassName: # Notice that Class names are capitalized
+	pass # An Empty Block
+#end of ClassName
+
+obj = ClassName()
+print(obj)
