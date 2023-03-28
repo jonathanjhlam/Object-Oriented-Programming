@@ -10,7 +10,8 @@ Class:
   - Human class: eat, drink, sleep, talk, regulate breathing and temperature (automatic), etc.       
 - Everything is contained and are objects within the class (for the examples, they are objects of the human class)         
 
-Object:    
+Object:  
+
 In Computer Science (CS):       
 - Object can be a variable, a data structure, a function, or a method; therefore, a location in memory having a value that can be referenced by an identifier
         
