@@ -3,6 +3,8 @@ Unit Notes: Object Oriented Programming
 
 **Lesson 1:**        
 
+For examples, refer to the lesson 1 PPT: [https://docs.google.com/presentation/d/1wJ1SqLBaVSahdJUO41QRkyyLDmXpMWCROxV5TzdWsvU/edit?usp=sharing](url)
+
 **Class:**    
 - Contains attributes       
   - Human class: race, gender, age, height, hair color, weight, etc.       
@@ -91,4 +93,11 @@ print(obj)
 
 **The init method & self parameter**
 - def __init__(self): → The __init__ method (double underscores)
+- The **initialization** method is executed as soon as an object of the class is instantiated
+- It helps us to do any initialization for the object’s attributes
+- **self** parameter is used to denote that the method is applied and accessible for the object itself
+- **self** will also treat its own attributes as local
+- **Double Underscore:** These are key hidden features of Python that allow us to do some overwriting of Python features and hidden content
+
+
 
