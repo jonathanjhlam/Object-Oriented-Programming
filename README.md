@@ -88,3 +88,6 @@ print(obj)
 
 **Creating a Method for a Class:**
 - Classes can have **methods**. In Python 3, we just declare them like a new function (it doesn’t always need to return).
+
+**The __init__ method & self parameter**
+- 
