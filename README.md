@@ -43,7 +43,7 @@ NOTE: OOP focuses on how to manipulate the data of the object rather than the lo
 - **RECALL THAT AN OBJECT IS AN INSTANCE**
 - **States:** The characteristic, measurable data of an object
 - **Behavior:** The available functionality of the object (what can it do?)
-- Object’s Data → called: attributes
-- Object’s Code → called: methods
+- Object’s Data → attributes
+- Object’s Code → methods
 
 
