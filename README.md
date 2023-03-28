@@ -18,4 +18,12 @@ In Computer Science (CS):
 In Object Oriented Programming (OOP):          
 - An object in OOP is an instance of a class where this object can be either a variable, a function, a data structure or a combination of such       
 
-d
+The OOP Paradigm:          
+
+Object Oriented Programming (OOP):           
+
+Programming practice to design modular reusable software systems
+OOP designs programs with creation of Objects
+An approach that focuses on the definition of data rather than the input → processing → output logic (OOP vs procedure-oriented programming)
+The goal is to create an object that we can define and provide functionality to solve problems
+
