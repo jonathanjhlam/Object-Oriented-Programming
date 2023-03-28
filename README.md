@@ -3,7 +3,7 @@ Unit Notes: Object Oriented Programming
 
 **Lesson 1:**        
 
-For examples, refer to the lesson 1 PPT: [https://docs.google.com/presentation/d/1wJ1SqLBaVSahdJUO41QRkyyLDmXpMWCROxV5TzdWsvU/edit?usp=sharing](url)
+**For examples, refer to the lesson 1 PPT: [https://docs.google.com/presentation/d/1wJ1SqLBaVSahdJUO41QRkyyLDmXpMWCROxV5TzdWsvU/edit?usp=sharing](url)**
 
 **Class:**    
 - Contains attributes       
