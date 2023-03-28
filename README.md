@@ -85,3 +85,5 @@ print(obj)
 2. In its code block (indentation) define its attributes
 3. Then you can assign a variable with an instantiation of the class to interact with it
 	- Make sure to use parentheses when calling the class name.
+
+**Creating a Method for a Class:**
