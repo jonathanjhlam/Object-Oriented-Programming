@@ -1,5 +1,5 @@
 # Object Oriented Programming
-Unit Notes: Object Oriented Programming   
+Unit Notes: Object Oriented Programming (Total: 4 Lessons)   
 
 # **Lesson 1: OBJECT ORIENTED PROGRAMMING 1**        
 
