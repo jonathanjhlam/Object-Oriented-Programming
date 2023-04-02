@@ -1,7 +1,7 @@
 # Object Oriented Programming
 Unit Notes: Object Oriented Programming   
 
-# **Lesson 1**        
+# **Lesson 1: OBJECT ORIENTED PROGRAMMING 1**        
 
 **For examples, refer to the lesson 1 PPT: [https://docs.google.com/presentation/d/1wJ1SqLBaVSahdJUO41QRkyyLDmXpMWCROxV5TzdWsvU/edit?usp=sharing](url)**
 
@@ -108,7 +108,7 @@ print(obj)
 	- operators → + and *
 	- methods → L.append(), L.count(), L.extend(), L.sort(), L.reverse()
 
-# **Lesson 2**     
+# **Lesson 2: OBJECT ORIENTED PROGRAMMING 2**     
 **For examples, refer to the lesson 2 PPT: [https://docs.google.com/presentation/d/1BSBVPl27YKaFtiNa_6EPyUd5gnM5o60fKHdrmtp2jGk/edit?usp=sharing](url)**
 	
 **Encapsulation:**        
@@ -257,7 +257,7 @@ print(corgi) → “Woof, I’m Tobasco.”
 	- **__repr__** → Allows us to present a printable version of our object
 	- **__str__** → Allows us to convert our object to a string
 
-# **Lesson 3**
+# **Lesson 3: OBJECT ORIENTED PROGRAMMING 3**
 **For examples, refer to the lesson 3 PPT: [https://docs.google.com/presentation/d/1Y_By4kpgBXSZrrpH0JwcwBKgZf3GcTAweFDXrnMZx-U/edit?usp=sharing](url)**
 
 **Inheritance:**
@@ -266,8 +266,7 @@ print(corgi) → “Woof, I’m Tobasco.”
 	- **Single Inheritance:** A subclass inheriting the features of a single superclass/parent class
 	- **Multiple Inheritance:** A subclass inheriting the features of a multiple parent classes
 	- **Multilevel Inheritance:** A subclass is inheriting from another subclass… A → B → C
-- **Inheritance** can have an **hierarchy** (branching like a tree) **and/or** be a **hybrid**
-	- mixing the types of inheritances
+- **Inheritance** can have an **hierarchy** (branching like a tree) **and/or** be a **hybrid**: mixing the types of inheritances
 - **What can we do?**
 	- A child will receive all attributes and methods of the parent
 	- A child can then enhance itself with new attributes and new methods
@@ -391,18 +390,102 @@ class Child(Parent):
 		pass
 ```
 	
-# **Lesson 4**
+# **Lesson 4: OBJECT ORIENTED PROGRAMMING 4**
+**For examples, refer to the lesson 4 PPT: [https://docs.google.com/presentation/d/1-Q1t0MzkhzI1iqMS6M0vO7iWNR5Ov6Gn-ClVVrjQT-Y/edit?usp=sharing](url)**
+	
+**Iterable Objects**
+- **Iterable Objects:** Objects that we can iterate through like a sequence
+	- **Examples:** Strings & Lists (sets and dictionaries too)
+		- Recall that we could iterate through Strings and Lists
+		- To access individual values without indexing, we were able to use **for loops**
+- **NOTE:**
+	- The portion of the iterable object must be a **sequence**
+	- Iterable doesn’t always mean indexable
 
+**Printing all the cards in a Deck (Design Pattern)**
+```
+class Deck:
+	… Code …
+	def __iter__(self):
+		return self
 
+	def __next__(self):
+		self.__index += 1
+		if self.__index == len(self.__cards):
+			self.__index = -1 # index reset
+			raise StopIteration
+		else:	
+			return self.__cards[self.__index]
 
+	… Code …	
+```
 
+**__iter__() and __next__()**
+- __iter__()
+	- Allows our object to be iterable, when invoked upon (ex. By a for loop), it will called the method
+	- **Commonly just returns it self**
+- __next__()
+	- Allows us to get to the next value when iterating:
+	- **Common Practice:**
+		- set an index attribute to -1
+		- increment the index attribute by 1 until self.__index is equal to length of sequence
+		- when the end is reached, **raise StopIteration**
 
+**Indexing:**
+- Indexing  requires multiple modules to be imported to make your own object to be both indexable and slicable
 
+# **Overview of Object Oriented Programming**
 
+**Object Oriented Programming:**
+- **Object Oriented Programming:** Programming paradigm that focuses on the creation of custom classes for special objects
+- **Class:** An abstract description of a new object that can be made. Classes contain attributes and methods
+	- **Attributes:** Variables/Data that belongs to the class
+	- **Methods:** Functions that the object can use and call for computation
+- **Object:** An instance of a class that can be used within a program. An object may have access to the attributes and methods for that class
+	
+**Encapsulation:**
+- **Encapsulation → Information Hiding:** Restricting the access to the classes/objects’ certain attributes and methods
+- **Why?**
+	- Data Protection
+	- Restricting certain methods to be callable
+- **NOTE:**
+	- In Python, this isn’t really possible: hence we use a special system
+		- We hide attributes and methods by using a double underscore as a prefix
 
+**Inheritance:**
+- **Inheritance:** When an object or class is based on another class; where its features are from a **parent class**
+- **Types:**
+	- **Single Inheritance:** A subclass inheriting the features of a single superclass / parent class
+	- **Multiple Inheritance:** A subclass inheriting the features of a multiple parent classes
+	- **Multilevel Inheritance:** A subclass is inheriting from another subclass… A → B → C
+- **Inheritance** can have an hierarchy (branching like a tree) **and/or** be a hybrid: mixing the types of inheritances
 
+**Polymorphism:**
+- **Polymorphism:** A method that can be used across different classes and object that is dependent on the parameters
+	- Poly → Many
+	- Morphism → Forms
+- **Ideas:**
+	- Different Classes (non-inherited) can have the same named methods (Simple) → Polymorphism
+	- Within a set of inherited classes have the same methods
 
+**Override and Polymorphism:**
+- We can have:
+	- Two different classes have a same attributes and methods
+	- A child of a parent can have an **overrided** method where the child would utilize the method differently
+- These are the **two fundamental concepts** of overriding and polymorphism in Python
+- If we can override a **built-in methods/operators** that we use in Python 3 as well for our own objects
+	- Some call them “magic methods”
 
+**OOP in Python Format**
+```
+class ClassName:
+	def __init__(self):
+		“”” initialization method “””
 
+	def __str__(self):
+		“”” return a string version of your object “””
 
-
+	# We can add methods; especially get and set methods
+	# We can set attributes in the initialization method
+	# There are a lot of base methods overridable
+```
